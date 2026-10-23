@@ -1,42 +1,25 @@
 # ELDEN RING: NIGHTTIDE
+
 ## 艾尔登法环：黑夜入侵
 
-[English](README.md) · [开发路线](ROADMAP.md) · [致谢与授权](CREDITS.md)
+[English](README.md) · [安装说明](INSTALL.md) · [已知问题](KNOWN_ISSUES.md) · [更新日志](CHANGELOG.md) · [致谢](CREDITS.md)
 
-**ELDEN RING: NIGHTTIDE / 艾尔登法环：黑夜入侵** 是一个独立设计的《艾尔登法环》大型重制 Mod，重点重新设计成长、战斗平衡、世界遭遇，并将部分《艾尔登法环 黑夜君临》的 Boss 融入交界地与幽影之地。
+NIGHTTIDE 是一个仍在开发的《艾尔登法环》整合重制 Mod，包含成长和平衡调整、遭遇修改，以及部分《黑夜君临》Boss 的整合。
 
-NIGHTTIDE 最初源于一个个人平衡实验，并从 **Elden Ring Ascended** 等高难度大型 Mod 的设计理念中获得了重要灵感。随着开发规模扩大，项目逐渐发展为拥有独立平衡思路、成长结构、Boss 配置、世界遭遇和新增内容的完整 Overhaul。
+**当前版本：v0.10.26 公测版 1（`v0.10.26-beta.1`）。** 请到 [GitHub Releases](https://github.com/TrasAsimov/ELDEN-RING-NIGHTTIDE/releases) 下载完整玩家 ZIP。GitHub 自动生成的 “Source code” 附件只有仓库文档，不是游戏安装包。
 
-特别感谢 **vanbuinen 与 Elden Ring Ascended** 对项目早期开发带来的启发。
+本版以 F4 为基线整理：移除旧测试报告和开发审计文件，统一启动入口及配置名称，重新生成校验清单。**本次没有新增战斗修复。** 垃圾王处决、大嘴抓取跟随、山羊动作及部分模型、音效问题仍未解决，请先阅读 [已知问题](KNOWN_ISSUES.md)。
 
-> **公开下载：暂未开放。**  
-> 当前公开仓库仅用于项目介绍、开发进度与设计文档。现阶段不会在这里分发任何游戏文件或可下载测试包。
+## 安装
 
-## 项目方向
+需要《艾尔登法环》本体、黄金树幽影 DLC，以及另行安装的 ME3。开发基线针对游戏 1.17.1，其他版本的兼容性未验证。完整解压到全新目录，运行 `ModEngine/launchmod_eldenring.bat`。不要叠加之前的测试包或补丁，详见 [安装说明](INSTALL.md)。
 
-NIGHTTIDE 的主要目标包括：
+配置默认离线启动。测试整合 Mod 前请备份存档。本次发布没有运行 Windows 游戏实测；文件、资源结构和校验检查通过，不代表战斗表现已通过验收。
 
-- 重新设计成长与战斗平衡，而不是依靠单一的全局难度倍率。
-- 强化表现不足的近战武器、装备、护符、道具及不同流派。
-- 重做部分遭遇、奖励、Boss 配置与世界推进结构。
-- 将部分 Nightreign Boss 放入主题、规模和战斗空间都合适的区域。
-- 保留《艾尔登法环》本体世界的辨识度，同时增强后期挑战性与重复游玩价值。
-- 对第三方整合内容保持清晰署名，并按授权范围使用。
+## 开发状态
 
-## 当前开发状态
+项目源于基于 Ascended 的历史开发分支。本公测版保留该分支及后续 NIGHTTIDE 整合内容，计划中的干净独立基线迁移尚未完成。本项目不是 Ascended 官方续作，也不代表 FromSoftware、Bandai Namco 或第三方 Mod 作者。
 
-项目仍处于持续开发阶段。当前工作包括平衡体系迁移、遭遇设计、Nightreign Boss 整合、世界位置调整、兼容性处理与实机测试。
+NIGHTTIDE 为非商业同人项目。来源署名见 [CREDITS.md](CREDITS.md)，整合与署名不转移游戏或第三方素材的所有权。
 
-内部开发版本以及历史测试包与本公开仓库分开保存。只有当独立的 NIGHTTIDE 构建达到可公开分发状态后，才会开放正式下载。
-
-## 独立性与署名
-
-NIGHTTIDE **不是 Elden Ring Ascended 的官方续作**，也不代表 FromSoftware、Bandai Namco 或任何第三方 Mod 作者。
-
-公开版 NIGHTTIDE 将作为独立项目开发。灵感来源以及获得授权的第三方内容统一记录在 [CREDITS.md](CREDITS.md)。
-
-## 游戏资产说明
-
-《艾尔登法环》与《艾尔登法环 黑夜君临》相关游戏资产及知识产权归其各自权利人所有。本仓库不会授予任何 FromSoftware / Bandai Namco 游戏资产或第三方 Mod 内容的权利。
-
-NIGHTTIDE 为非商业同人项目。
+反馈时请在 [Issues](https://github.com/TrasAsimov/ELDEN-RING-NIGHTTIDE/issues) 写明版本、地点、Boss 阶段、复现步骤；抓取、动作和音效问题尽量附短视频。
