@@ -15,9 +15,11 @@
 
 ### 打包
 
-玩家 ZIP：**ELDEN_RING_NIGHTTIDE_v0.10.38_Public_Beta_2.zip**（由发布者另行上传到本 Release 的 Assets）。包内只有 `ModEngine/` 和玩家文档。不含 `_pre_*`、`_nightreign_chr_stash`、`_f8_crash_stash`、内部 `TEST_NOTES`，也不含已弃用的 F9 wem `sd/wem/91|92|93`。
+玩家 ZIP：**ELDEN_RING_NIGHTTIDE_v0.10.38_Public_Beta_2.zip**（1237725650 字节；由发布者另行上传到本 Release 的 Assets）。包内只有 `ModEngine/` 和玩家文档。不含 `_pre_*`、`_nightreign_chr_stash`、`_f8_crash_stash`、内部 `TEST_NOTES`，也不含已弃用的 F9 wem `sd/wem/91|92|93`。
 
-仓库 `SHA256SUMS.txt` 仍只有公测版 1 归档的 SHA-256。本 ZIP 的归档校验值请写在资产上传之后；下表是包内关键文件的大小和 SHA-256 **前缀**，不是完整摘要。
+归档 SHA-256：`5eee8976dd4445809c87cb6f4bb0d2fb551d13f489ca56391c05ec048be988e0`
+
+同值见 `SHA256SUMS.txt`（本 Release 附件，以及仓库中的同一清单；清单同时保留公测版 1 的归档校验值）。下表是包内关键文件的大小和 SHA-256 **前缀**，不是完整摘要。
 
 | File | Bytes | SHA-256 prefix | Note |
 | --- | --- | --- | --- |
@@ -43,4 +45,4 @@
 
 本版为公测预发布。实机确认仅覆盖大嘴抓取锁定时机与平地离场重置。山羊幅度、不得其名一阶段打击感和黑夜君临专属音乐均未修好。测试前请备份存档。
 
-**English:** Public Beta 2 player package from the live folder after F8.x. Adel grab lock timing and flat-floor leave/reset (F8.4 / F8.4.1) verified in play; leave zone is 54 m from marker `2054390850`. Libra `c7561` vs `c7560` bone order still mismatches and swing amplitude is still wrong (F8.6.2 slide + stub remain; work paused). The Beta 1 H1 proximity-crash rollback note is unchanged. Heolstor phase-1 combo still has no hit feel/SFX (P1 anibnd overlay present; ERR full model not used; work paused). F9 `cs_smain.bnk` experiment silenced all boss music and was rolled back to the stock bank (`ca3d50f2eadebd0c`, 1390900 bytes). Nightreign OST is not shipped. Other F4 candidates are unchanged from Beta 1. ZIP is `ELDEN_RING_NIGHTTIDE_v0.10.38_Public_Beta_2.zip` (`ModEngine/` + player docs only).
+**English:** Public Beta 2 player package from the live folder after F8.x. Adel grab lock timing and flat-floor leave/reset (F8.4 / F8.4.1) verified in play; leave zone is 54 m from marker `2054390850`. Libra `c7561` vs `c7560` bone order still mismatches and swing amplitude is still wrong (F8.6.2 slide + stub remain; work paused). The Beta 1 H1 proximity-crash rollback note is unchanged. Heolstor phase-1 combo still has no hit feel/SFX (P1 anibnd overlay present; ERR full model not used; work paused). F9 `cs_smain.bnk` experiment silenced all boss music and was rolled back to the stock bank (`ca3d50f2eadebd0c`, 1390900 bytes). Nightreign OST is not shipped. Other F4 candidates are unchanged from Beta 1. ZIP is `ELDEN_RING_NIGHTTIDE_v0.10.38_Public_Beta_2.zip` (`ModEngine/` + player docs only), 1237725650 bytes, SHA-256 `5eee8976dd4445809c87cb6f4bb0d2fb551d13f489ca56391c05ec048be988e0`.
