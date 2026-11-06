@@ -5,7 +5,7 @@ Version: **v0.10.38 Public Beta 2 / 公测版 2** (`v0.10.38-beta.2`).
 ## 新玩家快速安装
 
 1. **准备游戏和备份存档。** 安装本体和黄金树幽影 DLC，先确认原版可以正常启动，再退出游戏。此公测基线为 1.17.1，其他版本未验证。
-2. **下载完整整合包。** 打开本项目公测发布页，在 Assets 中下载 `ELDEN_RING_NIGHTTIDE_v0.10.38_Public_Beta_2.zip`。用 `SHA256SUMS.txt` 核对：`5eee8976dd4445809c87cb6f4bb0d2fb551d13f489ca56391c05ec048be988e0`（1237725650 字节）。同一清单仍保留公测版 1 归档 `ELDEN_RING_NIGHTTIDE_v0.10.26_Public_Beta_1.zip` 的校验值。两个 Source code 附件不是游戏包。完整 ZIP 已包含本版资源，不要再叠加公测版 1 或更早的测试补丁。
+2. **下载完整整合包。** 打开本项目公测发布页，在 Assets 中下载 `ELDEN_RING_NIGHTTIDE_v0.10.38_Public_Beta_2.zip`。用 `SHA256SUMS.txt` 核对：`3c0bdf9573274bae78efe25efdcbd289d9a0f915d1f2ae1865cff514a89602c3`（1237732957 字节）。同一清单仍保留公测版 1 归档 `ELDEN_RING_NIGHTTIDE_v0.10.26_Public_Beta_1.zip` 的校验值。两个 Source code 附件不是游戏包。完整 ZIP 已包含本版资源，不要再叠加公测版 1 或更早的测试补丁。
 3. **安装 ME3。** 打开 [ME3 官方下载页](https://github.com/garyttierney/me3/releases/latest)，在 Assets 中下载并运行 `me3_installer.exe`，按向导安装。官方教程：[Windows 安装说明](https://github.com/garyttierney/me3/blob/main/docs/user-guide/installation.md)。本整合包不附带 ME3 程序。
 4. **完整解压到新文件夹。** 例如 `D:\Mods\NIGHTTIDE`（仅为示例，磁盘不限）。找到解压后包内的 `ModEngine` 文件夹；保留整个包的相对目录，不需要覆盖游戏安装目录，也不要只复制 `regulation.bin`。
 5. **双击唯一启动入口。** 运行 `ModEngine/launchmod_eldenring.bat`。脚本先校验文件，成功后调用 ME3 和包内 `nighttide.me3`；该配置默认离线。不要直接从 Steam 启动原版来判断 Mod 是否加载。
@@ -35,7 +35,7 @@ Use the [official ME3 releases](https://github.com/garyttierney/me3/releases/lat
 
 ## Steps / 安装步骤
 
-1. Download `ELDEN_RING_NIGHTTIDE_v0.10.38_Public_Beta_2.zip` from the release assets. The “Source code” downloads are not the player package. Check `SHA256SUMS.txt`: `5eee8976dd4445809c87cb6f4bb0d2fb551d13f489ca56391c05ec048be988e0` (1237725650 bytes). That file also lists the Public Beta 1 ZIP.
+1. Download `ELDEN_RING_NIGHTTIDE_v0.10.38_Public_Beta_2.zip` from the release assets. The “Source code” downloads are not the player package. Check `SHA256SUMS.txt`: `3c0bdf9573274bae78efe25efdcbd289d9a0f915d1f2ae1865cff514a89602c3` (1237732957 bytes). That file also lists the Public Beta 1 ZIP.
 2. Extract the complete ZIP into a **new directory**. Do not overwrite a Public Beta 1 or older F1/F2/F3/H1/F4 install, and do not add historical patches.
 3. Make `me3.exe` available on Windows PATH. The launcher also recognizes the historical `E:\me3\bin\me3.exe` and `E:\me3\me3.exe` locations.
 4. Run **`ModEngine/launchmod_eldenring.bat`**. It verifies the runtime files before invoking `nighttide.me3`.
