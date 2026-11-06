@@ -2,16 +2,16 @@
 
 ## Current public test
 
-**v0.10.26-beta.1 / Public Beta 1** is a consolidated F4 player package. It opens the current experimental build for testing; it does not mark the combat integrations complete. See [known issues](KNOWN_ISSUES.md), [installation](INSTALL.md), and [release history](CHANGELOG.md).
+**v0.10.38-beta.2 / Public Beta 2** packages the live folder after F8.x iteration. Adel grab lock timing and flat-floor leave/reset are verified in play. Libra amplitude and Heolstor phase-1 hit feel remain open, and that work is paused. Nightreign OST is not shipped. See [known issues](KNOWN_ISSUES.md), [installation](INSTALL.md), and [release history](CHANGELOG.md).
 
 ## Immediate priorities
 
 - Dreglord head collision and critical-attack eligibility; corruption gathering, orb effects, and phase-two white artifacts.
-- Adel mouth attachment throughout grabs, including release/death and both forms.
-- Libra animation scale/range, physical hitboxes/damage, critical attacks, summons, and proximity stability.
-- Heolstor silent/non-hitting combos, phase-two cloth appearance, phase transitions, and victory cleanup.
+- Adel full mouth-follow through the animated grab. Grab lock timing and flat-floor leave/reset (54 m from marker `2054390850`) are already verified.
+- Libra, paused at the owner's request: `c7561` bone order still mismatches stock `c7560`. F8.6.2 slide and stub retarget are in the package, and swing amplitude is still wrong. Reach, damage, critical attacks, and summons remain open.
+- Heolstor, paused: phase-1 combo still lacks hit feel and SFX. The P1 anibnd overlay is present; the ERR full model is not used. Phase-two cloth, transitions, and victory cleanup remain open.
 - Gladius visible activation marker and Rykard post-victory wicker/furnace enemy cleanup.
-- Fulghor damage measurements and dedicated boss music/sound mapping across the new encounters.
+- Fulghor damage measurements. Dedicated Nightreign boss music is not in this package; `cs_smain.bnk` is the stock bank after the F9 all-boss silence rollback.
 
 ## Foundation and balance
 
