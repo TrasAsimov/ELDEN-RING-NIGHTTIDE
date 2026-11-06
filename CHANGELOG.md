@@ -24,7 +24,7 @@ Built from the live Public Beta folder after F8.x internal iteration. Obsolete `
 
 ### Live file markers / 在线文件标记
 
-Sizes and SHA-256 prefixes from the live package. These are prefixes, not full digests. The player ZIP archive checksum is published with the GitHub Release asset.
+Sizes and SHA-256 prefixes from the live package. These are prefixes, not full digests. The player ZIP `ELDEN_RING_NIGHTTIDE_v0.10.38_Public_Beta_2.zip` is 1237732957 bytes, SHA-256 `3c0bdf9573274bae78efe25efdcbd289d9a0f915d1f2ae1865cff514a89602c3`, listed in `SHA256SUMS.txt` together with the Public Beta 1 archive.
 
 | File | Bytes | SHA-256 prefix | Note |
 | --- | --- | --- | --- |
