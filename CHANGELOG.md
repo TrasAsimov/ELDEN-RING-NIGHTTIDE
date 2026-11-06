@@ -1,5 +1,43 @@
 # Changelog / 更新日志
 
+## v0.10.38-beta.2 — Public Beta 2 / 公测版 2
+
+Release date: **2026-11-06**.
+
+Built from the live Public Beta folder after F8.x internal iteration. Obsolete `_pre_*` / stash directories and unused F9 Nightreign BGM wems are stripped from the player ZIP.
+
+### Confirmed this cycle / 本轮确认
+
+- **Adel (大嘴)**: grab lock timing and flat-floor leave/reset (F8.4 / F8.4.1) verified in play. Arena leave uses a 54 m zone from marker `2054390850`.
+- **Boss BGM bank**: F9 `cs_smain.bnk` experiment silenced all boss music and was rolled back to the stock bank (SHA-256 prefix `ca3d50f2`, 1390900 bytes). Nightreign OST wiring is **not** shipped.
+
+### Still broken / 仍未解决（已知）
+
+- **Libra (山羊)**: custom `c7561` skeleton bone-order mismatch vs stock `c7560`. F8.6.2 bone-slide + stub retarget remains on disk; swing amplitude still wrong in play. Work paused at the owner's request.
+- **Heolstor (不得其名)**: Phase-1 combo still lacks hit feel / SFX. P1 anibnd overlay remains; ERR full model path not used. Work paused.
+- Other inherited F4 candidates (Rykard wicker cleanup, Gladius lights, Adel full mouth-follow, Dreglord critical, Fulghor damage, and the rest of the Beta 1 list) are unchanged from Public Beta 1.
+
+### Package hygiene / 打包清理
+
+- Player ZIP: `ELDEN_RING_NIGHTTIDE_v0.10.38_Public_Beta_2.zip`. It contains only `ModEngine/` plus player docs. No `_pre_*`, `_nightreign_chr_stash`, `_f8_crash_stash`, or internal `TEST_NOTES`.
+- Orphan `sd/wem/91|92|93` Nightreign tracks removed (bank never shipped).
+
+### Live file markers / 在线文件标记
+
+Sizes and SHA-256 prefixes from the live package. These are prefixes, not full digests. The player ZIP archive checksum is published with the GitHub Release asset.
+
+| File | Bytes | SHA-256 prefix | Note |
+| --- | --- | --- | --- |
+| `regulation.bin` | 3067232 | `a067a4b2e02cd26f` | |
+| `common.emevd.dcx` | 108762 | `3b322c653e62e71c` | |
+| `c0000.anibnd.dcx` | 14932200 | `b571478cc3dc60b2` | |
+| `c7561.chrbnd.dcx` | 25690988 | `bd7102122a656736` | |
+| `c7561.anibnd.dcx` | 17968 | `537c2e98635e548f` | stub |
+| `c7580.anibnd.dcx` | 2757156 | `409c50ebbea207fe` | |
+| `cs_smain.bnk` | 1390900 | `ca3d50f2eadebd0c` | stock, post-rollback |
+
+中文：本版为大嘴抓取锁定时机与平地离场重置已实测通过的整合公测包；山羊幅度与不得其名一阶段打击感仍未修好并已暂停；F9 改 bank 曾导致全 BOSS 无音乐，已回滚原版 bank，未附 Nightreign OST。发布 ZIP 已剔除全部备份目录与无用 wem。
+
 ## v0.10.26-beta.1 — Public Beta 1 / 公测版 1
 
 Release date: **2026-10-23**.

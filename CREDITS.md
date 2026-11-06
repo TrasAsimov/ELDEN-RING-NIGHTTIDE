@@ -4,7 +4,7 @@ NIGHTTIDE is a non-commercial fan project. These credits consolidate the public 
 
 ## Historical foundation / 历史基础
 
-**Elden Ring Ascended — vanbuinen.** NIGHTTIDE began as an Ascended-based personal development branch. Public Beta 1 still derives from that branch plus subsequent NIGHTTIDE integrations; migration to a clean independent base is pending. NIGHTTIDE is not an official Ascended continuation. This attribution does not claim new redistribution permission from Ascended's author.
+**Elden Ring Ascended — vanbuinen.** NIGHTTIDE began as an Ascended-based personal development branch. Public Beta 2 still derives from that branch plus subsequent NIGHTTIDE integrations; migration to a clean independent base is pending. NIGHTTIDE is not an official Ascended continuation. This attribution does not claim new redistribution permission from Ascended's author.
 
 ## Integrated work / 整合内容
 
